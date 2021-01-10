@@ -1,6 +1,6 @@
-# A Complete Course of the Raku programming language
+# دورة تدريبية كاملة عن لغة البرمجة  Raku
 
-* [About this course](/about-this-course)
+* [عن هذه الدورة التدريبية](/about-this-course)
 
 {% comment %}{% assign compact_menu = true %}{% endcomment %}
 {% include toc.html %}
