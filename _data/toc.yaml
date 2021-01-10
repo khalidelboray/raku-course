@@ -1,58 +1,58 @@
-title: Course of Raku
+title: دورة تدريبية عن لغة البرمجة Raku
 toc:
-  - title: Essentials
-    long_title: Raku essentials
+  - title: الضروريات
+    long_title: ضروريات لغة البرمجة Raku
     url: essentials
     items:
-      - title: Basic introduction to Raku and its compiler
+      - title: مقدمة أساسية لـ Raku ومترجمها
         items:
-          - title: What is Raku
+          - title: ما هي Raku
             url: what-is-raku
-          - title: Raku vs. Rakudo
+          - title: الفرق بين Raku و Rakudo
             url: raku-vs-rakudo
-          - title: How to install Rakudo
+          - title: كيفية تثبيت Rakudo
             url: how-to-install-rakudo
-          - title: Editors and IDEs
-            long_title: Editors and IDEs for programming in Raku
+          - title: المحررات و بيئات التطوير المتكاملة (IDEs)
+            long_title: المحررات و بيئات التطوير المتكاملة (IDEs) للبرمجة بـ Raku
             url: editors-and-ides
-          - title: Conventional file extensions
+          - title: امتدادات الملفات المألوفة والمتعارف عليها
             url: conventional-file-extensions
-          - title: Hello, World!
+          - title: Hello, World! , مرحبيا بالعالم
             url: hello-world
-          - title: Notes on using Unicode
+          - title: ملاحظات حول استخدام المحارف القياسية يونيكود (Unicode)
             url: on-unicode
-          - title: Running programs
+          - title: تشغيل البرامج
             url: running-programs
             items:
-              - title: Running from command line
+              - title: التشغيل من سطر الأوامر
                 url: from-command-line
-              - title: Running from REPL
+              - title: التشغيل من واجهة REPL
                 url: from-repl
-              - title: Running from IDE
+              - title: التشغيل من بيئة التطوير المتكاملة
                 url: from-ide
-              - title: Using docker
+              - title: استخدام docker
                 url: using-docker
-              - title: Using online services
+              - title: استخدام الخدمات المتوفرة علي الإنترنت
                 url: using-online-services
             exercises:
               - title: Hello, me!
                 url: hello-me
-          - title: Simple input and output
+          - title: مدخلات ومخرجات بسيطة
             url: simple-input-output
             items:
-              - title: Output with `say`
+              - title: مخرجات باستخدام `say`
                 url: say
-              - title: Input with `prompt`
+              - title: مدخلات باستخدام `prompt`
                 url: prompt
-          - title: Comments
+          - title: التعليقات - Comments
             url: comments
             items:
-              - title: Single-line comments
+              - title: التعليقات أحادية السطر
                 url: single-line
                 quizzes:
                   - title: 'Quiz: Single-line comments'
                     url: quiz
-              - title: Multi-line comments
+              - title: التعليقات متعددة السطور
                 url: multi-line
               - title: Embedded comments
                 url: embedded
