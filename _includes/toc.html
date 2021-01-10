@@ -3,7 +3,10 @@
 {% if (menu_for_part == nil) or (menu_for_part == part.url) %}
 {% if menu_for_part == nil %}
 {% assign part_n = part_n | plus: 1 %}
-## الجزء {{part_n}}. {% if part.long_title %}{{part.long_title}}{% else %}{{part.title}}{% endif %}
+<div dir="rtl">
+## الجزء {{part_n}}. {% if part.long_title %}{{part.long_title}}{% else %}{{part.title}}
+</div>
+{% endif %}
 {% endif %}
 {%- for subpart in part.items %}
 #### {{subpart.title}}
