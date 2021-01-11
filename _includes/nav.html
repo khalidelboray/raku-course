@@ -126,9 +126,9 @@ Refer to the contents of this section to find the answers if needed.
         [{{curr_section.title}}](/raku-course/{{curr_part.url}}/{{curr_section.url}})
     {%- endif %}
 {%- else %}
-    [{{prev_section.title}}](/{{prev_section_part.url}}/{{prev_section.url}})
+    [{{prev_section.title}}](/raku-course/{{prev_section_part.url}}/{{prev_section.url}})
     {%- if prev_section.items.size != nil %}
-        / [{{prev_section.items.last.title}}](/{{prev_section_part.url}}/{{prev_section.url}}/{{prev_section.items.last.url}})
+        / [{{prev_section.items.last.title}}](/raku-course/{{prev_section_part.url}}/{{prev_section.url}}/{{prev_section.items.last.url}})
     {%- endif %}
 {%- endif %}
 &nbsp;&nbsp;|&nbsp;&nbsp;
@@ -146,7 +146,7 @@ Refer to the contents of this section to find the answers if needed.
         [{{curr_section.title}}](/raku-course/{{curr_part.url}}/{{curr_section.url}}) / [{{next_topic.title}}](/raku-course/{{curr_part.url}}/{{curr_section.url}}/{{next_topic.url}})
     {%- else %}
         [{{next_section.title}}](/raku-course/{{next_section_part.url}}/{{next_section.url}})
-    {%- endif %}    
+    {%- endif %}
 {%- else %}
     {%- if curr_section.items.size != nil %}
         [{{curr_section.items[0].title}}](/raku-course/{{curr_part.url}}/{{curr_section.url}}/{{curr_section.items[0].url}})
