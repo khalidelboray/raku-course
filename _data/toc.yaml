@@ -17,7 +17,7 @@ toc:
             url: editors-and-ides
           - title: امتدادات الملفات المألوفة والمتعارف عليها
             url: conventional-file-extensions
-          - title: Hello, World! , مرحبيا بالعالم
+          - title: Hello, World! , مرحبا بالعالم
             url: hello-world
           - title: ملاحظات حول استخدام المحارف القياسية يونيكود (Unicode)
             url: on-unicode
@@ -54,38 +54,38 @@ toc:
                     url: quiz
               - title: التعليقات متعددة السطور
                 url: multi-line
-              - title: Embedded comments
+              - title: التعليقات المضمنة
                 url: embedded
 
-      - title: Variables and data types essentials
+      - title: أساسيات المتغيرات و أنواع البيانات
         items:
-          - title: Scalar variables
+          - title: المتغيرات اللا متجهه(قياسية)
             url: scalar-variables
             items:
-              - title: Declaring a variable
+              - title: تعريف متغير
                 url: declaring-a-variable
                 quizzes:
                   - title: 'Quiz 1: Declaring a variable'
                     url: quiz1
                   - title: 'Quiz 2: Declaring more variables'
                     url: quiz2
-              - title: Assigning a value
+              - title: تخصيص قيمة
                 url: assigning-a-value
                 quizzes:
                   - title: 'Quiz 1: Assigning a value'
                     url: quiz1
                   - title: 'Quiz 2: Assigning two values'
                     url: quiz2
-              - title: Declaration with initialization
+              - title: تعريف مع تعيين قيمة
                 url: declaration-with-initialization
                 quizzes:
                   - title: 'Quiz 1: Declaration with initialization'
                     url: quiz1
                   - title: 'Quiz 2: Declaration and initialization or declaration with initialization'
                     url: quiz2
-              - title: The defined-or operator
+              - title: معامل مُعرف-أو
                 url: defined-or-operator
-              - title: Names of the variables
+              - title: أسماء المتغيرات
                 url: identifiers
                 quizzes:
                   - title: 'Quiz: Valid names of the variables'
@@ -100,13 +100,13 @@ toc:
               - title: Correct the identifiers
                 url: identifiers
 
-          - title: Strings
+          - title: سلاسل الحروف
             url: strings
             quizzes:
               - title: Quiz — valid strings
                 url: quiz
             items:
-              - title: String concatenation
+              - title: وصل سلاسل الحروف
                 url: string-concatenation
                 quizzes:
                   - title: 'Quiz 1: Concatenating strings'
@@ -115,19 +115,19 @@ toc:
                     url: quiz2
                   - title: 'Quiz 3: Concatenating strings again'
                     url: quiz3
-              - title: Variable interpolation
+              - title: إدراج المتغيرات
                 url: variable-interpolation
                 quizzes:
                   - title: 'Quiz: String interpolation'
                     url: quiz
-              - title: Code interpolation
+              - title: إدراج الكود
                 url: code-interpolation
               - title: Escaping special characters
                 url: escaping-special-characters
                 quizzes:
                   - title: 'Quiz: A backslash in the output'
                     url: quiz
-              - title: String length
+              - title: طول سلسة الحروف
                 url: string-length
                 quizzes:
                   - title: 'Quiz: The length of a phrase'
@@ -142,24 +142,24 @@ toc:
               - title: Name length
                 url: name-length
 
-          - title: Numbers
+          - title: الأعداد
             url: numbers
             items:
-              - title: Integer numbers
+              - title: الأعداد الصحيحة
                 url: integers
                 quizzes:
                     - title: 'Quiz: Integer numbers'
                       url: quiz1
                     - title: 'Quiz: Unicode digits and numbers'
                       url: quiz2
-              - title: Rational numbers
+              - title: الأرقام النسبية
                 url: rats
                 quizzes:
                   - title: 'Quiz: Rational numbers in Raku'
                     url: quiz
-              - title: Floating-point numbers
+              - title: الأرقام العشرية
                 url: numeric
-              - title: Operations with numbers
+              - title: العمليات علي الأعداد
                 url: operations
             exercises:
               - title: Apple sharing
@@ -176,15 +176,15 @@ toc:
                 url: the-last-digit
               - title: Sum of numbers from 1 to 100
                 url: sum1-100
-          - title: Boolean type
+          - title: المتغير المنطقي
             url: booleans
             items:
-              - title: Boolean operations
+              - title: العمليات المنطقية
                 url: operations
                 quizzes:
                   - title: 'Quiz: Boolean operations'
                     url: quiz
-              - title: Boolean operations with other types
+              - title: العمليات المنطقية علي أنواع المتغيرات الأخري
                 url: boolean-operations-other-types
                 quizzes:
                   - title: 'Quiz: Boolean operations with non-Boolean data'
@@ -199,15 +199,15 @@ toc:
                 url: double-negation
               - title: Triple negation
                 url: triple-negation
-          - title: Ranges
+          - title: النطاقات
             url: ranges
             items:
-                - title: Excluding endpoints
+                - title: استثناء نقطة النهاية
                   url: excluding-endpoints
                   quizzes:
                     - title: Quiz — Creating ranges
                       url: quiz
-                - title: Matching against a range
+                - title: المطابقة مع النطاقات
                   url: matching-against-a-range
                   quizzes:
                     - title: Quiz — Matching against a range
@@ -216,59 +216,59 @@ toc:
               - title: If the number is within the limits
                 url: number-in-limits
 
-      - title: Control flow essentials
+      - title: أساسيات التحكم في التدفق
         url: control-flow
         items:
-        - title: Code blocks
+        - title: كتل التعليمات البرمجية
           url: code-blocks
           items:
-            - title: Lexical scope
+            - title: النطاق المعجمي/المفرداتي
               url: lexical-scope
               quizzes:
                 - title: Quiz — Lexical scope
                   url: quiz
-            - title: Global variables
+            - title: المتغيرات العالمية
               url: global-variables
               quizzes:
                 - title: Quiz — Global variables
                   url: quiz
-            - title: Local variables
+            - title: المتغيرات المحلية
               url: local-variables
               quizzes:
                 - title: Quiz — Local variables
                   url: quiz
-        - title: Conditional checks
+        - title: التحقق الشرطي
           url: conditional-checks
           items:
-            - title: '`if` blocks'
+            - title: 'كتل تعليمات `if`'
               url: if
               quizzes:
                 - title: 'Quiz: `if`'
                   url: quiz
-            - title: '`else` blocks'
+            - title: 'كتل تعليمات `else`'
               url: else
-            - title: 'Using `elsif`'
+            - title: 'استخدام `elsif`'
               url: elsif
               quizzes:
                 - title: 'Quiz: `if`, `elsif`, and `else`'
                   url: quiz
-            - title: 'Using `unless`'
+            - title: 'استخدام `unless`'
               url: unless
-            - title: '`if` and `unless` as statement modifiers'
+            - title: 'استخدام `if` و `unless` كمعدلات للجمل البرمجية'
               url: modifiers
-            - title: Comparing numbers
+            - title: مقارنة الأرقام
               url: comparing-numbers
               quizzes:
                 - title: Quiz — Compare numbers
                   url: quiz
-            - title: Comparing strigns
+            - title: مثارنة سلاسل الحروف
               url: comparing-strings
               quizzes:
                 - title: Quiz 1 — Compare strings
                   url: quiz1
                 - title: 'Quiz 2 — the condition in `if`*'
                   url: quiz2
-            - title: Ternary operator
+            - title: المعامل الثلاثي
               url: ternary-operator
               quizzes:
                 - title: Quiz — Ternary operator
@@ -282,38 +282,38 @@ toc:
               url: how-many-equal-numbers
             - title: Leap year
               url: leap-year
-        - title: Loops
+        - title: الحلقات
           url: loops
           items:
-            - title: Using `while`
+            - title: استخدام `while`
               url: while
               quizzes:
                 - title: 'Quiz — the `while` loop'
                   url: quiz
-            - title: Using `until`
+            - title: استخدام `until`
               url: until
               quizzes:
                 - title: 'Quiz — the `until` loop'
                   url: quiz
-            - title: Using `repeat`
+            - title: استخدام `repeat`
               url: repeat
               quizzes:
                 - title: 'Quiz — the `repeat` loop'
                   url: quiz
             - title: '`while` and `until` as statement modifiers'
               url: modifiers
-            - title: Three-statement `loop`
+            - title: حلقة ثلاثية الجمل البرمجية `loop`
               url: loop
-            - title: Infinite loops
+            - title: الحلقات اللانهائية
               url: infinite-loops
-            - title: '`for` loops'
+            - title: 'حلقات `for` '
               url: for
               quizzes:
                 - title: 'Understanding the `for` loop'
                   url: quiz
-            - title: Topic variable
+            - title: متغير الموضوع
               url: topic
-            - title: 'Postfix form of `for`'
+            - title: 'الصيغة الاحقة من `for`'
               url: postfix-for
               quizzes:
                 - title: 'Quiz — Posftix `for`*'
@@ -335,25 +335,25 @@ toc:
             - title: Digital stairs
               url: digital-stairs
 
-      - title: More about types
+      - title: المزيد عن أنواع البيانات
         url: more-about-types
         items:                
-          - title: Data type conversion
+          - title: تحويل/إبدال أنواع البيانات
             url: coercion
             quizzes:
               - title: 'Quiz: What is its type?'
                 url: quiz
             items:
-              - title: Introspection with `WHAT`
+              - title: الاستبطان باستخدام `WHAT`
                 url: what
                 quizzes:
                   - title: 'Quiz: What does WHAT return?'
                     url: quiz
-              - title: Converting types using type coercion methods
+              - title: تحويل أنواع البيانات باستخدام أساليب الإكراه
                 url: methods
-              - title: Converting types using constructor forms
+              - title: تحويل الأنواع باستخدام صيغة المُنشئ
                 url: new
-              - title: Converting types with prefix operators
+              - title: تحويل انواع البيانات باستخدام المعاملات البادئة
                 url: prefixes
             exercises:
               - title: True and False numbers
@@ -362,22 +362,22 @@ toc:
                 url: true-false-strings
               - title: Fractional part
                 url: fractional-part
-          - title: Typed variables
+          - title: متغيرات النوع
             url: typed-variables
             items:
-              - title: Type constraints
+              - title: القيود علي نوع البيانات
                 url: type-constraints
                 quizzes:
                   - title: Quiz — Type constraints
                     url: quiz
-              - title: Using `of`
+              - title: استخدام `of`
                 url: using-of
-              - title: Type conversion for typed variables
+              - title: إبدال نوع البيانات في متغيرات النوع
                 url: coercion
                 quizzes:
                   - title: Quiz — converting the types
                     url: quiz
-              - title: Allomorphs
+              - title: اللومورفس
                 url: allomorphs
             exercises:
               - title: Create variables of all known types
@@ -389,15 +389,15 @@ toc:
                 url: prompt-numbers
               - title: Converting user input to a number
                 url: input-number
-          - title: Positional data types
+          - title: أنواع البيانات الموضعية
             url: positionals
             items:
-              - title: Arrays
+              - title: المصفوفات
                 url: arrays
                 quizzes:
                   - title: Quiz — Arrays
                     url: quiz
-              - title: Nested arrays
+              - title: المصفوفات المتداخلة
                 url: nested-arrays
                 quizzes:
                   - title: Quiz — Nested arrays
@@ -605,10 +605,10 @@ toc:
                 quizzes:
                   - title: 'Quiz — Multi-`MAIN`'
                     url: quiz
-              - title: Using `unit sub`
+              - title: استخدام `unit sub`
                 url: using-unit-sub
                 quizzes:
-                  - title: Quiz* — Using the unit-scoped definition
+                  - title: Quiz* — استخدام the unit-scoped definition
                     url: quiz
             exercises:
               - title: Hello, World!

@@ -9,20 +9,20 @@
 {%- for subpart in part.items %}
 #### {{subpart.title}}
 {%- for section in subpart.items %}
-* [{{section.title}}](/{{part.url}}/{{section.url}})
+* [{{section.title}}](/raku-course/{{part.url}}/{{section.url}})
 {%-if extended_menu %}
-    {%- if section.quizzes %} — <span class="has-q">[{{section.quizzes.size}} quiz{% if section.quizzes.size != 1 %}zes{% endif %}](/{{part.url}}/{{section.url}}#practice)</span>{% endif %}
+    {%- if section.quizzes %} — <span class="has-q">[{{section.quizzes.size}} quiz{% if section.quizzes.size != 1 %}zes{% endif %}](/raku-course/{{part.url}}/{{section.url}}#practice)</span>{% endif %}
     {%- if section.exercises %}
         {%if section.quizzes %} and {%- else %} — {%- endif %}
-        <span class="has-e">[{{section.exercises.size}} exercise{% if section.exercises.size != 1 %}s{% endif %}](/{{part.url}}/{{section.url}}/exercises)</span>
+        <span class="has-e">[{{section.exercises.size}} exercise{% if section.exercises.size != 1 %}s{% endif %}](/raku-course/{{part.url}}/{{section.url}}/exercises)</span>
     {%- endif %}
 {%- endif %}
 
 {%- if compact_menu == nil %}
 {%- for topic in section.items %}
-    - [{{topic.title}}](/{{part.url}}/{{section.url}}/{{topic.url}})
+    - [{{topic.title}}](/raku-course/{{part.url}}/{{section.url}}/{{topic.url}})
     {%- if extended_menu %}
-        {%- if topic.quizzes %} — <span class="has-q">[{{topic.quizzes.size}} quiz{% if topic.quizzes.size != 1 %}zes{% endif %}](/{{part.url}}/{{section.url}}/{{topic.url}}#practice)</span>{% endif %}
+        {%- if topic.quizzes %} — <span class="has-q">[{{topic.quizzes.size}} quiz{% if topic.quizzes.size != 1 %}zes{% endif %}](/raku-course/{{part.url}}/{{section.url}}/{{topic.url}}#practice)</span>{% endif %}
     {%- endif %}
 {%- endfor %}
 {%- endif %}
