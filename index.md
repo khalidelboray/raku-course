@@ -1,6 +1,6 @@
 # دورة تدريبية كاملة عن لغة البرمجة  Raku
 
-* [عن هذه الدورة التدريبية](/about-this-course)
+* [عن هذه الدورة التدريبية](/raku-course/about-this-course/)
 
 {% comment %}{% assign compact_menu = true %}{% endcomment %}
 {% include toc.html %}
