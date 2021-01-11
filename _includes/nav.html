@@ -145,13 +145,13 @@ Refer to the contents of this section to find the answers if needed.
     {%- if next_topic_section.url == curr_section.url %}
         [{{curr_section.title}}](/raku-course/{{curr_part.url}}/{{curr_section.url}}) / [{{next_topic.title}}](/raku-course/{{curr_part.url}}/{{curr_section.url}}/{{next_topic.url}})
     {%- else %}
-        [{{next_section.title}}](/{{next_section_part.url}}/{{next_section.url}})
-    {%- endif %}
+        [{{next_section.title}}](/raku-course/{{next_section_part.url}}/{{next_section.url}})
+    {%- endif %}    
 {%- else %}
     {%- if curr_section.items.size != nil %}
         [{{curr_section.items[0].title}}](/raku-course/{{curr_part.url}}/{{curr_section.url}}/{{curr_section.items[0].url}})
     {%- else %}
-        [{{next_section.title}}](/{{next_section_part.url}}/{{next_section.url}})
+        [{{next_section.title}}](/raku-course/{{next_section_part.url}}/{{next_section.url}})
     {%- endif %}
 {%- endif %}
 {%- endif %}

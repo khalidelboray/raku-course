@@ -300,7 +300,7 @@ toc:
               quizzes:
                 - title: 'Quiz — the `repeat` loop'
                   url: quiz
-            - title: '`while` and `until` as statement modifiers'
+            - title: 'استخدام `while` و `until` كمعدلات للجمل البرمجية'
               url: modifiers
             - title: حلقة ثلاثية الجمل البرمجية `loop`
               url: loop
