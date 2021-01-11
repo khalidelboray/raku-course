@@ -107,14 +107,14 @@ URL levels: {{ levels }}
 
 {% endfor %}
 
-[{{course_title}}](/)
-{%- if curr_part    and curr_section                       %} / [{{curr_part.title}}](/{{curr_part.url}}){%- endif %}
-{%- if curr_section and curr_topic                         %} / [{{curr_section.title}}](/{{curr_part.url}}/{{curr_section.url}}){%- endif %}
-{%- if curr_topic   and curr_quiz                          %} / [{{curr_topic.title}}](/{{curr_part.url}}/{{curr_section.url}}/{{curr_topic.url}}){%- endif %}
-{%- if curr_section and curr_topic == nil and curr_quiz    %} / [{{curr_section.title}}](/{{curr_part.url}}/{{curr_section.url}}){%- endif %}
-{%- if L3 == 'exercises'                                   %} / [{{curr_section.title}}](/{{curr_part.url}}/{{curr_section.url}}/){%- endif %}
-{%- if curr_exercise                                       %} / [Exercises](/{{curr_part.url}}/{{curr_section.url}}/exercises/){%- endif %}
-{%- if curr_exercise and L5 == 'solution'                  %} / [{{curr_exercise.title}}](/{{curr_part.url}}/{{curr_section.url}}/exercises/{{curr_exercise.url}}){%- endif %}
+[{{course_title}}](/raku-course)
+{%- if curr_part    and curr_section                       %} / [{{curr_part.title}}](/raku-course/{{curr_part.url}}){%- endif %}
+{%- if curr_section and curr_topic                         %} / [{{curr_section.title}}](/raku-course/{{curr_part.url}}/{{curr_section.url}}){%- endif %}
+{%- if curr_topic   and curr_quiz                          %} / [{{curr_topic.title}}](/raku-course/{{curr_part.url}}/{{curr_section.url}}/{{curr_topic.url}}){%- endif %}
+{%- if curr_section and curr_topic == nil and curr_quiz    %} / [{{curr_section.title}}](/raku-course/{{curr_part.url}}/{{curr_section.url}}){%- endif %}
+{%- if L3 == 'exercises'                                   %} / [{{curr_section.title}}](/raku-course/{{curr_part.url}}/{{curr_section.url}}/){%- endif %}
+{%- if curr_exercise                                       %} / [Exercises](/raku-course/{{curr_part.url}}/{{curr_section.url}}/exercises/){%- endif %}
+{%- if curr_exercise and L5 == 'solution'                  %} / [{{curr_exercise.title}}](/raku-course/{{curr_part.url}}/{{curr_section.url}}/exercises/{{curr_exercise.url}}){%- endif %}
 
 {% capture title %}
 {%- if    curr_part       and curr_section == nil and curr_part.long_title                             %}{{ curr_part.long_title    }}
