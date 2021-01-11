@@ -1,13 +1,13 @@
 ---
-title: What is Raku
+title: ما هي Raku
 ---
 
 {% include menu.html %}
 
-Raku is a great programming language.
+Raku هي لغة برمجة عظيمة.
 
-It allows programming in different styles, including procedural, functional, object-oriented, and reactive programming. It is a language with a diverse and gradual type system and incredible new regexes and grammars. Raku can solve a lot of tasks with a very compact programs.
+تسمح بالبرمجة بأساليب مختلفة, الإجرائية, الدالية, كائنية التوجه و البرمجة التفاعلية. انها لغة ذان نظام أنواع بيانات متنوع وتدريجي و Regex و قواعد عظيمة. Raku يمكنها حل وتنفيذ كثير من المهام ببرامج مٌوجزة جدا.
 
-This course covers the most fundamental features of Raku, along with many tricks that will make your work more efficient.
+هذه الدورة التدريبية تغطيي المميزات الأساسية للغة Raku , مع الكثير من الحيل لزيادة فعالية عملك.
 
 {% include nav.html %}

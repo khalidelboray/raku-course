@@ -7,7 +7,7 @@ title: Subscripting ranges
 A `Range` is a positional data type. As with arrays, you can assess its individual elements.
 
 For example, this is how you print the third element in the sequence of items that the range generates:
-
+``
 ```raku
 my $r = 10..20;
 say $r[3]; # 13

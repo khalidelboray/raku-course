@@ -407,17 +407,17 @@ toc:
                 quizzes:
                   - title: Quiz — The `@*ARGS` array
                     url: quiz
-              - title: Interpolating arrays
+              - title: إدراج المصفوفات
                 url: interpolating-arrays
                 quizzes:
                   - title: Quiz — Interpolating arrays
                     url: quiz
-              - title: Quoting string arrays
+              - title: مصفوفات سلاسل الحروف
                 url: quoting-string-arrays
                 quizzes:
                   - title: Quiz — Quoting string arrays
                     url: quiz
-              - title: Lists
+              - title: القوائم
                 url: lists
                 quizzes:
                   - title: Quiz 1 — Recognising lists

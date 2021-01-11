@@ -4,25 +4,26 @@ title: How to install Rakudo
 
 {% include menu.html %}
 
-To execute a program in Raku, you need to have a compiler installed. Visit [the website of Rakudo](https://rakudo.org) to download the version suitable for your operating system.
+لتشغيل برنامج في لغة Raku, ستحتاج الي مترجم مثبت. زُر  [the website of Rakudo](https://rakudo.org) لكي  تحمل النسخة المناسبة لنظام تشغيلك. 
 
-There are two main options. You can install the compiler itself or install a Rakudo Star suite (also spelt as Rakudo *). Rakudo Star includes a package manager and a few useful modules.
+يوجد نوعين اساسين. يمكنك تثبيت المترجم نفسه او تثبيت حزمة Rakudo Star, Rakudo Star يتضمن مدير حزم وبعض الحزم المفيدة.
 
 ## Sources
 
-You can download an installer for your system at [rakudo.org/downloads](https://rakudo.org/downloads). There exist versions for all major operating systems: Windows, Mac OS, and Linux. There are also source codes that you can compile yourself.
+يمكنك تحميل أداة التثبيت المناسبة لنظامك من [rakudo.org/downloads](https://rakudo.org/downloads). يوجد نسخ لكل انظمة التشغيل الرئيسية : ويندوز , نظام ماك ولينكس. ويوجد ايضا مصادر مفتوحة يمكنك تحميعها بنفسك.
 
 ## Rakudo Star
 
-It is also possible to install the bundle, Rakudo Star, by running the installer that you get at [rakudo.org/star](https://rakudo.org/star). Check the version number before installing it. You can also check the page called ‘[3rd-Party Rakudo Star Bundle Packages](https://rakudo.org/star/third-party)’ to see more options.
+يمكن ايضا تثبيت الحزمة، Rakudo Star، عن طريق تشغيل اداة التثبيت التي تحصل عليها من<a href="https://rakudo.org/star" target="_blank">rakudo.org/star</a>. تاكد من رقم النسخة قبل التثبيت. يمكنك ايضا رؤية صفحة <a href="https://rakudo.org/star/third-party" target="_blank">3rd-Party Rakudo Star Bundle Packages</a>  للمزيد من الخيارات.
 
 ## Docker images
 
-Rakudo Star is available as a docker image. You can use it for both running programs and for testing small scripts in a REPL shell. Find all the instructions at [github.com/Raku/docker](https://github.com/Raku/docker).
+و Rakduo Star متاح ك docker image. يمكنك استخدامه لتشغيل البرامج واختبار البرامج النصية البسيطة في واجهة REPL. كل التعليمات متاحة في <a href="https://github.com/Raku/docker" target="_blank">github.com/Raku/docker</a>
 
 ## Version numbers
 
-The Rakudo version numbering system forms the version number as a two-part number: the year and the month of the release date. You can easily see how fresh your compiler is. Run the following command line to see its version number:
+نظام ترقيم نسخ Rakudo ينسق رقم النسخة كرقم مكون من جزئين: سنة وشهر تاريخ الإصدار. يمكنك رؤية مدي مواكبة نسختك من المترجم بكل سهولة. نفذ هذا الأمر في سطر الأوامر لعرض رقم النسخة:
+
 
 ```console
 $ raku -v
@@ -31,6 +32,7 @@ Implementing the 𝐑𝐚𝐤𝐮™ programming language v6.d.
 Built on MoarVM version 2020.10.
 ```
 
-You can see three version numbers here. The first one is the version of Rakudo itself: `v2020.10`. Then comes the version of the Raku language: `v6.d`. The updates will currently get the new letter as a minor version part, e.g., `v6.e`, etc. Finally, we see the name of the virtual machine used in this compiler: MoarVM version `2020.10`.
+يمكنك رؤية ثلاثة أرقام اصداؤ هنا. الأول هة نسخة مترجم Rakudo نفسه: `v2020.10`. ثم يأتي اصدار لغة Raku: `v6.4`. التحديثات حاليا سوف تحصل علي الحرف الجديد كجزء اصدار فرعي، مثلا ، `v6.e` ، الخ. واخيرا، نري اسم الآلة الافتراضيى المستخدمة في المترجم: MoarVM version `2020.10`
+
 
 {% include nav.html %}

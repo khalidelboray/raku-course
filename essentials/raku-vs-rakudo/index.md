@@ -4,13 +4,14 @@ title: Raku vs. Rakudo
 
 {% include menu.html %}
 
-**Raku** is the name of the programming language, while **Rakudo** is the name of the compiler.
 
-Rakudo is the compiler that we are going to use in this course. It is using a virtual machine called MoarVM. You get it automatically when installing Rakudo.  It is also possible to build Rakudo on top of other virtual machines, but in this course, we will not dig into these differences.
+**Raku** هو اسم لغة البرمجة, بينما **Rakudo** هو اسم المترجم.
 
+Rakudo هو المترجم الذي سنستخدمه في هذه الدوؤة التدريبية. يستخدم آلة افتراضية (Virtual Machine) اسمها MoarVM. تحصل عليها تلقائيا عند تثبيت Rakudo . كما يمكنك تثبيت Rakudo معتمدا علي آلات افتراضية آخري, لكن لن نتعمق في هذا الشأن.
 ## Other compilers
 
-The design of Raku does not dictate which compiler to use. The design documents come with a set of test cases called Roast. You can implement your own compiler, and if it passes the tests, you can call it a Raku compiler. Rakudo is currently the most advanced and production-ready tool.
+تصميم Raku لا يحدد اي مترجم نستخدم. وثائق التصميم تأتي مع مجموعة من الحالات التجريبية تسمي Roast . يمكنك تنفيذ وتطبيق المترجم الخاص بك, وإذا اجتاز تلك الحالات, يمكنك تسميته مترجم للغة Raku.
+Rakudo هو أكثر المترجات تقدما وجاهزية لالإنتاجية. 
 
 ## External links
 

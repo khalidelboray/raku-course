@@ -8,7 +8,7 @@ The Raku programs are written as plain text and usually are kept in text files (
 
 It is assumed that the program source is a UTF-8 text. You can thus use any text editor that does not save formatting instructions in the document. While you can use `vim`, or `nano`, or `emacs`, or `mcedit` and be happy with your choice, you may also want to try a couple of currently trending applications.
 
-## External links
+## روابط خارجية
 
 Here are the links to the popular IDEs.
 
