@@ -17,7 +17,7 @@ toc:
             url: editors-and-ides
           - title: امتدادات الملفات المألوفة والمتعارف عليها
             url: conventional-file-extensions
-          - title: Hello, World! , مرحبا بالعالم
+          - title: مرحبا بالعالم , Hello, World!
             url: hello-world
           - title: ملاحظات حول استخدام المحارف القياسية يونيكود (Unicode)
             url: on-unicode
